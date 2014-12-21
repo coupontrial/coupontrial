@@ -76,6 +76,10 @@ header {
     transition: top .1s linear;
     text-indent: -9999px;
 }
+.logosub {
+margin-left: 33px;
+margin-top: -23px;	
+}
 .logoText {
     max-width: 180px;
     position: absolute;
