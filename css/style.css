@@ -1,5 +1,3 @@
-/* Author: Denis Petyukov <denis.petyukov@gmail.com> */
-
 /*main*/
 body {
     font: 0.8125em Helvetica, 'Helvetica Neue', Arial, Verdana, sans-serif;
@@ -149,7 +147,7 @@ header {
     }
 }
 .filter {
-    text-align: center;
+    text-align: left;
     font-style: italic;
     width: 100%;
 }
@@ -279,31 +277,52 @@ header {
 .playVideo:active {
     background-position: -102px -58px;
 }
-/*photography*/
-.photography .postExcerptInner {
+/*boxcoupon*/
+.boxcoupon .postExcerptInner {
     background-color: #fcfcfc;
 }
-.photography .titleAndCat {
+.boxcoupon .titleAndCat {
     border-bottom: 1px solid black;
 }
-.postExcerpt.photography {
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAAEW3a/2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ%0AbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp%0Abj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6%0AeD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0%0ANTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo%0AdHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw%0AdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv%0AIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS%0AZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD%0AcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNl%0ASUQ9InhtcC5paWQ6NjUzOTlGMUY4QTFBMTFFMjhDMjM5QzJCQkU4MDkzQTMiIHhtcE1NOkRvY3Vt%0AZW50SUQ9InhtcC5kaWQ6NjUzOTlGMjA4QTFBMTFFMjhDMjM5QzJCQkU4MDkzQTMiPiA8eG1wTU06%0ARGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2NTM5OUYxRDhBMUExMUUyOEMy%0AMzlDMkJCRTgwOTNBMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2NTM5OUYxRThBMUExMUUy%0AOEMyMzlDMkJCRTgwOTNBMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w%0AbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgtrSZAAAAH9SURBVHjaYjQ1Nf3PAAHvWQQEBKBsBkEm%0AZmZmhvnz5zOAaEZbW1uYMgaAAGKE6YGrB6vdtWsXA9PXr18Z7OzsGAACCEUDDLBwc3MzYAj%2B/fsX%0AQxAggBiRnAUDyiwcHBzoCu9iE4S4p6ioiEFPTw/sfhBmAsk4Ojoy9PT0oNru6%2BuL6qQfP35gmAkQ%0AQIzm5uYYPsIGsPoSG2BiZWVlgGGQG5D5yJgJCBhgeP/%2B/WB6x44dDMbGxgzIciz//v2DG//z508w%0A7eHhgenG379/E%2BVGFlCEEgHeAwQQthhDB8uBOIoF5FACIBKIOVjY2NiIsTqQBRRGRHkGlAyIihnk%0AQLW0tEQJZBTMyMjIAMIgJygrK4PZoFiBicMwXCEovT158oRBV1eXobW1FUMhy///kGAUExNjqKqq%0AgrtJX1%2Bf4cKFC4j06O7uTlx6RE4UeBViy4lYFRKZer6y/Pr1ixiFJgABRkzqIRa8BWJzotMEEUAY%0AiC8SmxqJBdxEJ0ZiAdUNZMKW4pWUlBh27tzJsG3bNgYWFhbcOQMLZvT09CQqltvb28E5qqSkBL8L%0AcRYgkZEM69atY5CUlAQbBso8WlpaDN3d3XgNZAQWlhgurKmpYbC2tsap6cqVKwylpaXYDXRzc/tP%0A1VgmNpMOnIFEZnpiwUaiKys84BMQ7wLiSiC%2BAwCboIm0fierigAAAABJRU5ErkJggg%3D%3D%0A') no-repeat 267px 15px;
+.postExcerpt.flipkart {
+    background: url(../img/flipkart.png) no-repeat 267px 15px;
 }
-.photography .postExcerptInner:hover {
+.postExcerpt.snapdeal {
+    background: url(../img/snapdeal.png) no-repeat 267px 15px;
+}
+.postExcerpt.myntra {
+    background: url(../img/myntra.png) no-repeat 267px 15px;
+}
+.postExcerpt.amazon {
+    background: url(../img/amazon.png) no-repeat 267px 15px;
+}
+.postExcerpt.yepme {
+    background: url(../img/yepme.png) no-repeat 267px 15px;
+}
+.postExcerpt.jabong {
+    background: url(../img/jabong.jpg) no-repeat 267px 15px;
+}
+.postExcerpt.paytm {
+    background: url(../img/paytm.png) no-repeat 267px 15px;
+}
+.postExcerpt.freecharge {
+    background: url(../img/freecharge.png) no-repeat 267px 15px;
+}
+.boxcoupon .postExcerptInner:hover {
     background-color: #353535;
 }
-.photography .postExcerptInner:hover > .titleAndCat {
+.boxcoupon .postExcerptInner:hover > .titleAndCat {
     width: 247px;
     border-bottom: none;
     color: white;
 }
-.photography .postExcerptInner:hover > p {
+.boxcoupon .postExcerptInner:hover > p {
     display: none;
 }
-.photography .postExcerptInner:hover em {
+.boxcoupon .postExcerptInner:hover em {
     color: #9b9b9b;
 }
-.photography .view {
+.boxcoupon .view {
     text-indent: -9999px;
     background-position: 0 -165px;
     display: block;
@@ -311,21 +330,22 @@ header {
     height: 40px;
     display: none;
     margin-top: 50px;
+	color:#FFF;
 }
-.photography .view:hover {
+.boxcoupon .view:hover {
     background-position: -209px -165px;
 }
-.photography .view:active {
+.boxcoupon .view:active {
     background-position: -102px -165px;
 }
-.photography .postExcerptInner:hover a {
+.boxcoupon .postExcerptInner:hover a {
     display: block;
     margin-left: 91px;
 }
-.photography .postExcerptInner:hover .imgWrap {
+.boxcoupon .postExcerptInner:hover .imgWrap {
     display: none;
 }
-.photography .imgWrap {
+.boxcoupon .imgWrap {
     width: 267px;
     overflow: hidden;
     height: 190px;
